@@ -15,6 +15,12 @@ namespace StackAndQueue
             stack.Peek();
             stack.Pop();
             stack.IsEmpty();
+
+            Queue queue = new Queue();
+            queue.Enqueue(56);
+            queue.Enqueue(70);
+            queue.Enqueue(30);
+            queue.Display();
         }
     }
     
